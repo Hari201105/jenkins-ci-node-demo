@@ -11,3 +11,4 @@ module.exports = { add, greet };
 if (require.main === module) {
   console.log(greet("Jenkins"));
 }
+console.log("Updated application");
